@@ -29,6 +29,7 @@ public class BookDao {
         preparedStatement.setInt(5, book.getStock());
 
         preparedStatement.executeUpdate();
+
         preparedStatement.close();
         connection.close();
     }
@@ -38,11 +39,11 @@ public class BookDao {
         String sql = """
                 UPDATE sample_books
                 SET
-                    book_title = ?,                   
-                    book_writer = ?,                                
-                    book_price = ?,                                
+                    book_title = ?,
+                    book_writer = ?,
+                    book_price = ?,
                     book_stock = ?
-                WHERE book_no = ?                                
+                WHERE book_no = ?
                 """;
 
         Connection connection = getConnection();
@@ -55,6 +56,7 @@ public class BookDao {
         preparedStatement.setInt(5, book.getNo());
 
         preparedStatement.executeUpdate();
+
         preparedStatement.close();
         connection.close();
     }
@@ -68,12 +70,11 @@ public class BookDao {
 
         Connection connection = getConnection();
         PreparedStatement preparedStatement = connection.prepareStatement(sql);
-
         preparedStatement.setInt(1, bookNo);
         preparedStatement.executeUpdate();
 
         preparedStatement.close();
-        preparedStatement.close();
+        connection.close();
     }
 
     // 모든 책정보를 조회하는 기능

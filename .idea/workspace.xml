@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdddcf26-3a40-416b-94e3-3fe5887be6ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/DeleteApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/InsertApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/SelectApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/UpdateApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc2/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc2/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc2/BookDaoApp.java" afterDir="false" />
+    <list default="true" id="bdddcf26-3a40-416b-94e3-3fe5887be6ef" name="Changes" comment="JDBC 저장, 변경, 삭제, 조회 학습">
+      <change afterPath="$PROJECT_DIR$/src/jdbc2/BookUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc2/Scanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc2prac/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc2prac/ProductApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc2prac/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc2prac/ProductUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc2prac/Scanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/JdbcTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/RowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/sd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc2/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc2/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc2/BookDaoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc2/BookDaoApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +40,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2Z94XtWIadYbPzpjo7iaJafRyY2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,9 +59,18 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jhta\Desktop\Java\jdbc\src\jdbc3" />
+      <recent name="C:\Users\jhta\Desktop\Java\jdbc\src\jdbc2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jdbc2prac" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,7 +80,20 @@
       <option name="presentableId" value="Default" />
       <updated>1701821005857</updated>
     </task>
+    <task id="LOCAL-00001" summary="JDBC 저장, 변경, 삭제, 조회 학습">
+      <option name="closed" value="true" />
+      <created>1701851755312</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701851755312</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JDBC 저장, 변경, 삭제, 조회 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC 저장, 변경, 삭제, 조회 학습" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
