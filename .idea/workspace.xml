@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdddcf26-3a40-416b-94e3-3fe5887be6ef" name="Changes" comment="JDBC 저장, 변경, 삭제, 조회 학습">
-      <change afterPath="$PROJECT_DIR$/src/jdbc2/BookUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc2/Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc2prac/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc2prac/ProductApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc2prac/ProductDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc2prac/ProductUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc2prac/Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/JdbcTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/RowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc3/sd.java" afterDir="false" />
+    <list default="true" id="bdddcf26-3a40-416b-94e3-3fe5887be6ef" name="Changes" comment="DAO, UI 클래스 분리 학습">
+      <change afterPath="$PROJECT_DIR$/src/helper/JdbcTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/RowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc2prac/ProductDAO2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc2/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc2/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc2/BookDaoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc2/BookDaoApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/app/jhta/product/21c/dbhomeXE/jdbc/lib/ojdbc11.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/app/jhta/product/21c/dbhomeXE/jdbc/lib/ojdbc11.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jhta\Desktop\Java\jdbc\src\jdbc3" />
@@ -88,12 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701851755312</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DAO, UI 클래스 분리 학습">
+      <option name="closed" value="true" />
+      <created>1701939019092</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701939019092</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JDBC 저장, 변경, 삭제, 조회 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC 저장, 변경, 삭제, 조회 학습" />
+    <MESSAGE value="DAO, UI 클래스 분리 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAO, UI 클래스 분리 학습" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
